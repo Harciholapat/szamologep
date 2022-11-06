@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+    
+</head>
+<body>
+    <form>
+        <legend>Első szám:</legend>
+        <input type="number" id="elso">
+        <legend>Második szám:</legend>
+        <input type="number" id="masodik"> <br>
+        <button type="button" onclick="osszead()">+</button>
+        <button type="button" onclick="kivon()">-</button>
+        <button type="button" onclick="szoroz()">*</button>
+        <button type="button" onclick="oszt()">/</button>
+    </form>
+
+    <h1>Eredmény:</h1>
+    <p id="eredmeny"></p>
+    <script src="szamologep.js"></script>
+</body>
+</html>
